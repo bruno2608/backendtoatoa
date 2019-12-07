@@ -15,6 +15,7 @@ const cadastro_cliente = require("./app2/routes/cadastro_cliente");
 const login = require("./app2/routes/login");
 const cors = require('cors');
 
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
